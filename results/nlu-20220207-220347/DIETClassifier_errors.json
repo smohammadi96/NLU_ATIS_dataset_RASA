@@ -1,0 +1,7833 @@
+[
+  {
+    "text": "i need a flight from toronto to newark one way leaving wednesday evening or thursday morning",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "toronto",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "newark",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "value": "one way",
+        "entity": "round_trip"
+      },
+      {
+        "start": 55,
+        "end": 64,
+        "value": "wednesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 65,
+        "end": 72,
+        "value": "evening",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 76,
+        "end": 84,
+        "value": "thursday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 85,
+        "end": 92,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9999995231628418,
+        "value": "toronto",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.9999973773956299,
+        "value": "newark",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "round_trip",
+        "start": 39,
+        "end": 46,
+        "confidence_entity": 0.9998637437820435,
+        "value": "one way",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 55,
+        "end": 64,
+        "confidence_entity": 0.9999551773071289,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 65,
+        "end": 72,
+        "confidence_entity": 0.9999964237213135,
+        "value": "evening",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "or",
+        "start": 73,
+        "end": 75,
+        "confidence_entity": 0.9999037981033325,
+        "value": "or",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 76,
+        "end": 84,
+        "confidence_entity": 0.9999922513961792,
+        "value": "thursday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 85,
+        "end": 92,
+        "confidence_entity": 0.9999982118606567,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "monday morning i would like to fly from columbus to indianapolis",
+    "entities": [
+      {
+        "start": 1,
+        "end": 7,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "value": "columbus",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 52,
+        "end": 64,
+        "value": "indianapolis",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.9999520778656006,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 40,
+        "end": 48,
+        "confidence_entity": 0.9999991655349731,
+        "value": "columbus",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 52,
+        "end": 64,
+        "confidence_entity": 0.9999903440475464,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "on next wednesday flight from kansas city to chicago should arrive in chicago around 7 pm return flight on thursday",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "next",
+        "entity": "depart_date.date_relative"
+      },
+      {
+        "start": 8,
+        "end": 17,
+        "value": "wednesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 30,
+        "end": 41,
+        "value": "kansas city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "value": "chicago",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "value": "chicago",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 78,
+        "end": 84,
+        "value": "around",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 85,
+        "end": 89,
+        "value": "7 pm",
+        "entity": "arrive_time.time"
+      },
+      {
+        "start": 107,
+        "end": 115,
+        "value": "thursday",
+        "entity": "return_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "depart_date.date_relative",
+        "start": 3,
+        "end": 7,
+        "confidence_entity": 0.9986577033996582,
+        "value": "next",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.9992789626121521,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 30,
+        "end": 41,
+        "confidence_entity": 0.999472439289093,
+        "value": "kansas city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 45,
+        "end": 52,
+        "confidence_entity": 0.9999974966049194,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 70,
+        "end": 77,
+        "confidence_entity": 0.9999929666519165,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 78,
+        "end": 84,
+        "confidence_entity": 0.9999390840530396,
+        "value": "around",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 85,
+        "end": 89,
+        "confidence_entity": 0.9996917247772217,
+        "value": "7 pm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 107,
+        "end": 115,
+        "confidence_entity": 0.9997628331184387,
+        "value": "thursday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find nonstop flights from salt lake city to new york on saturday april ninth",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "nonstop",
+        "entity": "flight_stop"
+      },
+      {
+        "start": 26,
+        "end": 40,
+        "value": "salt lake city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 44,
+        "end": 52,
+        "value": "new york",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 65,
+        "end": 70,
+        "value": "april",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 71,
+        "end": 76,
+        "value": "ninth",
+        "entity": "depart_date.day_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_stop",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9999849796295166,
+        "value": "nonstop",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 26,
+        "end": 40,
+        "confidence_entity": 0.9989141225814819,
+        "value": "salt lake city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 44,
+        "end": 52,
+        "confidence_entity": 0.9751890301704407,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.9997856020927429,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.month_name",
+        "start": 65,
+        "end": 70,
+        "confidence_entity": 0.9995439648628235,
+        "value": "april",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_number",
+        "start": 71,
+        "end": 76,
+        "confidence_entity": 0.9963412880897522,
+        "value": "ninth",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "are there any flights from boston to orlando connecting in new york",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "boston",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 45,
+        "end": 55,
+        "value": "connecting",
+        "entity": "connect"
+      },
+      {
+        "start": 59,
+        "end": 67,
+        "value": "new york",
+        "entity": "stoploc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9999997615814209,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.9999865293502808,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "connect",
+        "start": 45,
+        "end": 55,
+        "confidence_entity": 0.9998499155044556,
+        "value": "connecting",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 59,
+        "end": 67,
+        "confidence_entity": 0.3723745048046112,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which flights leave newark after noon next saturday and arrive in los angeles",
+    "entities": [
+      {
+        "start": 20,
+        "end": 26,
+        "value": "newark",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "after",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "next",
+        "entity": "depart_date.date_relative"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 66,
+        "end": 77,
+        "value": "los angeles",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.9999918937683105,
+        "value": "newark",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9997488856315613,
+        "value": "after",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.9993798732757568,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.date_relative",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.9723219871520996,
+        "value": "next",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.9883396625518799,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 66,
+        "end": 77,
+        "confidence_entity": 0.999923825263977,
+        "value": "los angeles",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me round trip flights from chicago to detroit leaving next tuesday and returning the day after",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "round trip",
+        "entity": "round_trip"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "value": "chicago",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "value": "detroit",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "value": "next",
+        "entity": "depart_date.date_relative"
+      },
+      {
+        "start": 64,
+        "end": 71,
+        "value": "tuesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 90,
+        "end": 99,
+        "value": "day after",
+        "entity": "return_date.date_relative"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "round_trip",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.9998964071273804,
+        "value": "round trip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.9999996423721313,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 43,
+        "end": 50,
+        "confidence_entity": 0.9999949932098389,
+        "value": "detroit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.date_relative",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.9998362064361572,
+        "value": "next",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 64,
+        "end": 71,
+        "confidence_entity": 0.9999403953552246,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "return_date.date_relative",
+        "start": 86,
+        "end": 99,
+        "confidence_entity": 0.3556584417819977,
+        "value": "the day after",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "next wednesday i would like to leave kansas city on a trip to chicago which arrives in chicago around 7 pm",
+    "entities": [
+      {
+        "start": 1,
+        "end": 5,
+        "value": "next",
+        "entity": "depart_date.date_relative"
+      },
+      {
+        "start": 5,
+        "end": 14,
+        "value": "wednesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "value": "kansas city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 62,
+        "end": 69,
+        "value": "chicago",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 87,
+        "end": 94,
+        "value": "chicago",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 95,
+        "end": 101,
+        "value": "around",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 102,
+        "end": 106,
+        "value": "7 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "depart_date.day_name",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.9994412064552307,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 37,
+        "end": 48,
+        "confidence_entity": 0.65,
+        "value": "kansas city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 62,
+        "end": 69,
+        "confidence_entity": 0.9978749752044678,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 87,
+        "end": 94,
+        "confidence_entity": 0.9999723434448242,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 95,
+        "end": 101,
+        "confidence_entity": 0.9998156428337097,
+        "value": "around",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 102,
+        "end": 106,
+        "confidence_entity": 0.9998124241828918,
+        "value": "7 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i would like to leave this afternoon on an american flight from cincinnati to burbank",
+    "entities": [
+      {
+        "start": 22,
+        "end": 26,
+        "value": "this",
+        "entity": "depart_date.today_relative"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "value": "american",
+        "entity": "airline_name"
+      },
+      {
+        "start": 64,
+        "end": 74,
+        "value": "cincinnati",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 78,
+        "end": 85,
+        "value": "burbank",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9999915361404419,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_name",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.9998985528945923,
+        "value": "american",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 64,
+        "end": 74,
+        "confidence_entity": 0.9999704360961914,
+        "value": "cincinnati",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 78,
+        "end": 85,
+        "confidence_entity": 0.9996707439422607,
+        "value": "burbank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "does the airport at burbank have a flight that comes in from kansas city",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "burbank",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 61,
+        "end": 72,
+        "value": "kansas city",
+        "entity": "fromloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.671502411365509,
+        "value": "burbank",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 61,
+        "end": 72,
+        "confidence_entity": 0.9994857311248779,
+        "value": "kansas city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which flights arrive in burbank from las vegas on saturday april twenty third in the afternoon",
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "burbank",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "value": "las vegas",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 50,
+        "end": 58,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 59,
+        "end": 64,
+        "value": "april",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 65,
+        "end": 77,
+        "value": "twenty third",
+        "entity": "depart_date.day_number"
+      },
+      {
+        "start": 85,
+        "end": 94,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9999758005142212,
+        "value": "burbank",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.9998767375946045,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 50,
+        "end": 58,
+        "confidence_entity": 0.9995943903923035,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.month_name",
+        "start": 59,
+        "end": 64,
+        "confidence_entity": 0.9996671676635742,
+        "value": "april",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_number",
+        "start": 65,
+        "end": 77,
+        "confidence_entity": 0.9832252860069275,
+        "value": "twenty third",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.period_of_day",
+        "start": 85,
+        "end": 94,
+        "confidence_entity": 0.9992259740829468,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the ground transportation between the charlotte airport charlotte airport and downtown charlotte",
+    "entities": [
+      {
+        "start": 46,
+        "end": 63,
+        "value": "charlotte airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 64,
+        "end": 81,
+        "value": "charlotte airport",
+        "entity": "city_name"
+      },
+      {
+        "start": 95,
+        "end": 104,
+        "value": "charlotte",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 46,
+        "end": 63,
+        "confidence_entity": 0.9795255661010742,
+        "value": "charlotte airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 64,
+        "end": 81,
+        "confidence_entity": 0.8558215498924255,
+        "value": "charlotte airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 95,
+        "end": 104,
+        "confidence_entity": 0.9999842643737793,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me all the flights from charlotte to minneapolis that leave at 2 pm or later on monday",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "charlotte",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 42,
+        "end": 53,
+        "value": "minneapolis",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 68,
+        "end": 72,
+        "value": "2 pm",
+        "entity": "depart_time.time"
+      },
+      {
+        "start": 76,
+        "end": 81,
+        "value": "later",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 85,
+        "end": 91,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9999996423721313,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 42,
+        "end": 53,
+        "confidence_entity": 0.9999988079071045,
+        "value": "minneapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 68,
+        "end": 72,
+        "confidence_entity": 0.9996017813682556,
+        "value": "2 pm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "or",
+        "start": 73,
+        "end": 75,
+        "confidence_entity": 0.9998501539230347,
+        "value": "or",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 76,
+        "end": 81,
+        "confidence_entity": 0.9996570348739624,
+        "value": "later",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 85,
+        "end": 91,
+        "confidence_entity": 0.9999895095825195,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me flight us 1207 from indianapolis to charlotte on monday and flight us 1500 from charlotte to minneapolis on monday and flight twa 639 from minneapolis to indianapolis",
+    "entities": [
+      {
+        "start": 15,
+        "end": 17,
+        "value": "us",
+        "entity": "airline_code"
+      },
+      {
+        "start": 18,
+        "end": 22,
+        "value": "1207",
+        "entity": "flight_number"
+      },
+      {
+        "start": 28,
+        "end": 40,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "value": "charlotte",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 78,
+        "end": 82,
+        "value": "1500",
+        "entity": "flight_number"
+      },
+      {
+        "start": 88,
+        "end": 97,
+        "value": "charlotte",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 101,
+        "end": 112,
+        "value": "minneapolis",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 116,
+        "end": 122,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 134,
+        "end": 137,
+        "value": "twa",
+        "entity": "airline_code"
+      },
+      {
+        "start": 138,
+        "end": 141,
+        "value": "639",
+        "entity": "flight_number"
+      },
+      {
+        "start": 147,
+        "end": 158,
+        "value": "minneapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 162,
+        "end": 174,
+        "value": "indianapolis",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_code",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.996972918510437,
+        "value": "us",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flight_number",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.999967098236084,
+        "value": "1207",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 28,
+        "end": 40,
+        "confidence_entity": 0.9999994039535522,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 44,
+        "end": 53,
+        "confidence_entity": 0.9999889135360718,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.9999887943267822,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_code",
+        "start": 75,
+        "end": 77,
+        "confidence_entity": 0.9858241081237793,
+        "value": "us",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flight_number",
+        "start": 78,
+        "end": 82,
+        "confidence_entity": 0.99991774559021,
+        "value": "1500",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 88,
+        "end": 97,
+        "confidence_entity": 0.9999973773956299,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 101,
+        "end": 112,
+        "confidence_entity": 0.9999825954437256,
+        "value": "minneapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 116,
+        "end": 122,
+        "confidence_entity": 0.9999915361404419,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_code",
+        "start": 134,
+        "end": 137,
+        "confidence_entity": 0.9999508857727051,
+        "value": "twa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flight_number",
+        "start": 138,
+        "end": 141,
+        "confidence_entity": 0.9999352693557739,
+        "value": "639",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 147,
+        "end": 158,
+        "confidence_entity": 0.9997697472572327,
+        "value": "minneapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 162,
+        "end": 174,
+        "confidence_entity": 0.9400799870491028,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need to get from cincinnati to denver on june sixth by 6 pm",
+    "entities": [
+      {
+        "start": 19,
+        "end": 29,
+        "value": "cincinnati",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "denver",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 43,
+        "end": 47,
+        "value": "june",
+        "entity": "arrive_date.month_name"
+      },
+      {
+        "start": 48,
+        "end": 53,
+        "value": "sixth",
+        "entity": "arrive_date.day_number"
+      },
+      {
+        "start": 54,
+        "end": 56,
+        "value": "by",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 57,
+        "end": 61,
+        "value": "6 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 19,
+        "end": 29,
+        "confidence_entity": 0.9999982118606567,
+        "value": "cincinnati",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.999998927116394,
+        "value": "denver",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9998730421066284,
+        "value": "june",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 48,
+        "end": 53,
+        "confidence_entity": 0.999845027923584,
+        "value": "sixth",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 54,
+        "end": 56,
+        "confidence_entity": 0.9770824909210205,
+        "value": "by",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 57,
+        "end": 61,
+        "confidence_entity": 0.8586505651473999,
+        "value": "6 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what 's the fare for a taxi to denver",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "taxi",
+        "entity": "transport_type"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "value": "denver",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "transport_type",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9908351898193359,
+        "value": "taxi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9330829381942749,
+        "value": "denver",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what airlines off from love field between 6 and 10 am on june sixth",
+    "entities": [
+      {
+        "start": 23,
+        "end": 33,
+        "value": "love field",
+        "entity": "fromloc.airport_name"
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "value": "6",
+        "entity": "depart_time.start_time"
+      },
+      {
+        "start": 48,
+        "end": 53,
+        "value": "10 am",
+        "entity": "depart_time.end_time"
+      },
+      {
+        "start": 57,
+        "end": 61,
+        "value": "june",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 62,
+        "end": 67,
+        "value": "sixth",
+        "entity": "depart_date.day_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.9997825026512146,
+        "value": "love field",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.start_time",
+        "start": 42,
+        "end": 43,
+        "confidence_entity": 0.9968834519386292,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.start_time",
+        "start": 48,
+        "end": 53,
+        "confidence_entity": 0.7274232506752014,
+        "value": "10 am",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 57,
+        "end": 61,
+        "confidence_entity": 0.9998644590377808,
+        "value": "june",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 62,
+        "end": 67,
+        "confidence_entity": 0.9995473027229309,
+        "value": "sixth",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many canadian airlines flights use aircraft dh8",
+    "entities": [
+      {
+        "start": 9,
+        "end": 26,
+        "value": "canadian airlines",
+        "entity": "airline_name"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "value": "dh8",
+        "entity": "aircraft_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 9,
+        "end": 26,
+        "confidence_entity": 0.9997277855873108,
+        "value": "canadian airlines",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_code",
+        "start": 48,
+        "end": 51,
+        "confidence_entity": 0.5689901113510132,
+        "value": "dh8",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the flights on american airlines which fly from st. petersburg to ontario canada with a stopover in st. louis",
+    "entities": [
+      {
+        "start": 23,
+        "end": 40,
+        "value": "american airlines",
+        "entity": "airline_name"
+      },
+      {
+        "start": 56,
+        "end": 70,
+        "value": "st. petersburg",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 74,
+        "end": 81,
+        "value": "ontario",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 82,
+        "end": 88,
+        "value": "canada",
+        "entity": "toloc.country_name"
+      },
+      {
+        "start": 108,
+        "end": 117,
+        "value": "st. louis",
+        "entity": "stoploc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 23,
+        "end": 40,
+        "confidence_entity": 0.9999624490737915,
+        "value": "american airlines",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 56,
+        "end": 58,
+        "confidence_entity": 0.9996925592422485,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 60,
+        "end": 70,
+        "confidence_entity": 0.9999085664749146,
+        "value": "petersburg",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 74,
+        "end": 88,
+        "confidence_entity": 0.9994242191314697,
+        "value": "ontario canada",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 108,
+        "end": 110,
+        "confidence_entity": 0.9994696974754333,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 112,
+        "end": 117,
+        "confidence_entity": 0.999433696269989,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which airport is closest to ontario california",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "closest",
+        "entity": "mod"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "value": "ontario",
+        "entity": "city_name"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "value": "california",
+        "entity": "state_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mod",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.9989346861839294,
+        "value": "closest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.9963845014572144,
+        "value": "ontario",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_name",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.9967556595802307,
+        "value": "california",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the delta flights which serve a snack to coach passengers",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "delta",
+        "entity": "airline_name"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "value": "snack",
+        "entity": "meal_description"
+      },
+      {
+        "start": 49,
+        "end": 54,
+        "value": "coach",
+        "entity": "compartment"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9997079968452454,
+        "value": "delta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "meal_description",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.9982808828353882,
+        "value": "snack",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "class_type",
+        "start": 49,
+        "end": 54,
+        "confidence_entity": 0.9962421655654907,
+        "value": "coach",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is meal code sb",
+    "entities": [
+      {
+        "start": 18,
+        "end": 20,
+        "value": "sb",
+        "entity": "meal_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "meal",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9884054660797119,
+        "value": "meal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fare_basis_code",
+        "start": 18,
+        "end": 20,
+        "confidence_entity": 0.9675485491752625,
+        "value": "sb",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what meals are available on dl 468 which al arrives in san francisco at 950 am",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "meals",
+        "entity": "meal"
+      },
+      {
+        "start": 28,
+        "end": 30,
+        "value": "dl",
+        "entity": "airline_code"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "value": "468",
+        "entity": "flight_number"
+      },
+      {
+        "start": 55,
+        "end": 68,
+        "value": "san francisco",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 72,
+        "end": 78,
+        "value": "950 am",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "meal",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9992877840995789,
+        "value": "meals",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_code",
+        "start": 28,
+        "end": 30,
+        "confidence_entity": 0.9999511241912842,
+        "value": "dl",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.5985051393508911,
+        "value": "468",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 55,
+        "end": 68,
+        "confidence_entity": 0.9999748468399048,
+        "value": "san francisco",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 72,
+        "end": 78,
+        "confidence_entity": 0.9989989399909973,
+        "value": "950 am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the tower air flights on mondays",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "tower air",
+        "entity": "airline_name"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "mondays",
+        "entity": "day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9998396635055542,
+        "value": "tower air",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9999399185180664,
+        "value": "mondays",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how far is new york 's la guardia from downtown",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "new york 's",
+        "entity": "city_name"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "value": "la guardia",
+        "entity": "airport_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9933428764343262,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 21,
+        "end": 22,
+        "confidence_entity": 0.8709321618080139,
+        "value": "s",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.airport_name",
+        "start": 23,
+        "end": 33,
+        "confidence_entity": 0.9981281161308289,
+        "value": "la guardia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how far is toronto international from downtown",
+    "entities": [
+      {
+        "start": 11,
+        "end": 32,
+        "value": "toronto international",
+        "entity": "airport_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 11,
+        "end": 32,
+        "confidence_entity": 0.993063747882843,
+        "value": "toronto international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how far is los angeles international from downtown",
+    "entities": [
+      {
+        "start": 11,
+        "end": 36,
+        "value": "los angeles international",
+        "entity": "airport_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 11,
+        "end": 36,
+        "confidence_entity": 0.919900119304657,
+        "value": "los angeles international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how far is san francisco international from downtown",
+    "entities": [
+      {
+        "start": 11,
+        "end": 38,
+        "value": "san francisco international",
+        "entity": "airport_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 11,
+        "end": 38,
+        "confidence_entity": 0.9629679322242737,
+        "value": "san francisco international",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "at the charlotte airport how many different types of aircraft are there for us air",
+    "entities": [
+      {
+        "start": 7,
+        "end": 24,
+        "value": "charlotte airport",
+        "entity": "city_name"
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "value": "us air",
+        "entity": "airline_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city_name",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.9409307837486267,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_name",
+        "start": 76,
+        "end": 82,
+        "confidence_entity": 0.9999748468399048,
+        "value": "us air",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the first class round trip airfare from india indianapolis to memphis",
+    "entities": [
+      {
+        "start": 12,
+        "end": 23,
+        "value": "first class",
+        "entity": "class_type"
+      },
+      {
+        "start": 24,
+        "end": 34,
+        "value": "round trip",
+        "entity": "round_trip"
+      },
+      {
+        "start": 54,
+        "end": 66,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "value": "memphis",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "class_type",
+        "start": 12,
+        "end": 23,
+        "confidence_entity": 0.999872088432312,
+        "value": "first class",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "round_trip",
+        "start": 24,
+        "end": 34,
+        "confidence_entity": 0.9999336004257202,
+        "value": "round trip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.state_name",
+        "start": 48,
+        "end": 53,
+        "confidence_entity": 0.47233322262763977,
+        "value": "india",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 54,
+        "end": 66,
+        "confidence_entity": 0.9999985694885254,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 70,
+        "end": 77,
+        "confidence_entity": 0.999993085861206,
+        "value": "memphis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the distance in miles from boston airport to downtown boston",
+    "entities": [
+      {
+        "start": 32,
+        "end": 46,
+        "value": "boston airport",
+        "entity": "fromloc.airport_name"
+      },
+      {
+        "start": 59,
+        "end": 65,
+        "value": "boston",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9894427061080933,
+        "value": "miles",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.airport_name",
+        "start": 32,
+        "end": 46,
+        "confidence_entity": 0.9994081258773804,
+        "value": "boston airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 59,
+        "end": 65,
+        "confidence_entity": 0.999995231628418,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the distance in miles from new york 's la guardia airport to downtown new york city",
+    "entities": [
+      {
+        "start": 32,
+        "end": 43,
+        "value": "new york 's",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 44,
+        "end": 62,
+        "value": "la guardia airport",
+        "entity": "fromloc.airport_name"
+      },
+      {
+        "start": 75,
+        "end": 88,
+        "value": "new york city",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9893249869346619,
+        "value": "miles",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.9339842200279236,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 42,
+        "end": 43,
+        "confidence_entity": 0.9975010752677917,
+        "value": "s",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.airport_name",
+        "start": 44,
+        "end": 62,
+        "confidence_entity": 0.7802844047546387,
+        "value": "la guardia airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 75,
+        "end": 88,
+        "confidence_entity": 0.7473222017288208,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the distance in miles from toronto international airport to downtown toronto",
+    "entities": [
+      {
+        "start": 32,
+        "end": 61,
+        "value": "toronto international airport",
+        "entity": "fromloc.airport_name"
+      },
+      {
+        "start": 74,
+        "end": 81,
+        "value": "toronto",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9864336252212524,
+        "value": "miles",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.airport_name",
+        "start": 32,
+        "end": 61,
+        "confidence_entity": 0.9593074321746826,
+        "value": "toronto international airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 74,
+        "end": 81,
+        "confidence_entity": 0.9999904632568359,
+        "value": "toronto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the distance in miles from san francisco international airport to san francisco downtown",
+    "entities": [
+      {
+        "start": 32,
+        "end": 67,
+        "value": "san francisco international airport",
+        "entity": "fromloc.airport_name"
+      },
+      {
+        "start": 71,
+        "end": 84,
+        "value": "san francisco",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 21,
+        "end": 26,
+        "confidence_entity": 0.9940478801727295,
+        "value": "miles",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.airport_name",
+        "start": 32,
+        "end": 67,
+        "confidence_entity": 0.9698629975318909,
+        "value": "san francisco international airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 71,
+        "end": 84,
+        "confidence_entity": 0.9993509650230408,
+        "value": "san francisco",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list limousine rates for the city of boston",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "limousine",
+        "entity": "transport_type"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "value": "city of boston",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "transport_type",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.9944239258766174,
+        "value": "limousine",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "city_name",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.9836879968643188,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list flights from seattle to salt lake city on delta be1",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "seattle",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 29,
+        "end": 43,
+        "value": "salt lake city",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 47,
+        "end": 52,
+        "value": "delta",
+        "entity": "airline_name"
+      },
+      {
+        "start": 53,
+        "end": 56,
+        "value": "be1",
+        "entity": "aircraft_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.999998927116394,
+        "value": "seattle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 29,
+        "end": 43,
+        "confidence_entity": 0.9985828399658203,
+        "value": "salt lake city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_name",
+        "start": 47,
+        "end": 52,
+        "confidence_entity": 0.9996882677078247,
+        "value": "delta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 53,
+        "end": 56,
+        "confidence_entity": 0.24259771406650543,
+        "value": "be1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list flights from salt lake city utah to phoenix arizona monday",
+    "entities": [
+      {
+        "start": 18,
+        "end": 32,
+        "value": "salt lake city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 33,
+        "end": 37,
+        "value": "utah",
+        "entity": "fromloc.state_name"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "value": "phoenix",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "value": "arizona",
+        "entity": "toloc.state_name"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 18,
+        "end": 32,
+        "confidence_entity": 0.9985435009002686,
+        "value": "salt lake city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_name",
+        "start": 33,
+        "end": 37,
+        "confidence_entity": 0.5658547878265381,
+        "value": "utah",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 41,
+        "end": 48,
+        "confidence_entity": 0.9999970197677612,
+        "value": "phoenix",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_name",
+        "start": 49,
+        "end": 56,
+        "confidence_entity": 0.9999052286148071,
+        "value": "arizona",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.999991774559021,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kansas city to atlanta monday morning flights",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "kansas city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "value": "atlanta",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9965065121650696,
+        "value": "atlanta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9999922513961792,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9999902248382568,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "monday morning flights from atlanta to kansas city",
+    "entities": [
+      {
+        "start": 1,
+        "end": 7,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "value": "atlanta",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 39,
+        "end": 50,
+        "value": "kansas city",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.9999710321426392,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.9999970197677612,
+        "value": "atlanta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 39,
+        "end": 50,
+        "confidence_entity": 0.9999843835830688,
+        "value": "kansas city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "atlanta to st. louis tuesday before 230 pm flights",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "atlanta",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "st. louis",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "value": "tuesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "value": "230 pm",
+        "entity": "depart_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.999974250793457,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.999968409538269,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9999785423278809,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 29,
+        "end": 35,
+        "confidence_entity": 0.9999421834945679,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9998633861541748,
+        "value": "230 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cleveland to kansas city arrive monday before 3 pm",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "cleveland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 24,
+        "value": "kansas city",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "value": "monday",
+        "entity": "arrive_date.day_name"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "value": "3 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 24,
+        "confidence_entity": 0.9980923533439636,
+        "value": "kansas city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 32,
+        "end": 38,
+        "confidence_entity": 0.9993523955345154,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.9998464584350586,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.9999042749404907,
+        "value": "3 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kansas city to cleveland flight arrive wednesday before 5 pm",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "kansas city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "cleveland",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "value": "wednesday",
+        "entity": "arrive_date.day_name"
+      },
+      {
+        "start": 49,
+        "end": 55,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 56,
+        "end": 60,
+        "value": "5 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 24,
+        "confidence_entity": 0.9999964237213135,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 39,
+        "end": 48,
+        "confidence_entity": 0.999739944934845,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 49,
+        "end": 55,
+        "confidence_entity": 0.9999251365661621,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 56,
+        "end": 60,
+        "confidence_entity": 0.9998766183853149,
+        "value": "5 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cleveland to nashville flight friday morning",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "cleveland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "nashville",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "friday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9996826648712158,
+        "value": "nashville",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.9999874830245972,
+        "value": "friday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.9999651908874512,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nashville to cleveland sunday before 9",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "nashville",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "cleveland",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "value": "sunday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "value": "9",
+        "entity": "depart_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9999657869338989,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.9999823570251465,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 30,
+        "end": 36,
+        "confidence_entity": 0.9999200105667114,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 37,
+        "end": 38,
+        "confidence_entity": 0.9973989725112915,
+        "value": "9",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "first class flights pittsburgh to newark monday morning",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "first class",
+        "entity": "class_type"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "value": "pittsburgh",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "value": "newark",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 48,
+        "end": 55,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 20,
+        "end": 30,
+        "confidence_entity": 0.9999856948852539,
+        "value": "pittsburgh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 34,
+        "end": 40,
+        "confidence_entity": 0.9999456405639648,
+        "value": "newark",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 41,
+        "end": 47,
+        "confidence_entity": 0.9999696016311646,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 48,
+        "end": 55,
+        "confidence_entity": 0.999991774559021,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "los angeles to minneapolis thursday afternoon",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "los angeles",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 26,
+        "value": "minneapolis",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "value": "thursday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 26,
+        "confidence_entity": 0.9999508857727051,
+        "value": "minneapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9999920129776001,
+        "value": "thursday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 36,
+        "end": 45,
+        "confidence_entity": 0.9999055862426758,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "minneapolis to pittsburgh flight",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "minneapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "value": "pittsburgh",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.9999185800552368,
+        "value": "pittsburgh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "minneapolis to pittsburgh first class flight",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "minneapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "value": "pittsburgh",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 26,
+        "end": 37,
+        "value": "first class",
+        "entity": "class_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.9999560117721558,
+        "value": "pittsburgh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "class_type",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9998235106468201,
+        "value": "first class",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i would like to have the airline that flies toronto detroit and st. louis",
+    "entities": [
+      {
+        "start": 44,
+        "end": 51,
+        "value": "toronto",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 52,
+        "end": 59,
+        "value": "detroit",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 64,
+        "end": 73,
+        "value": "st. louis",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 44,
+        "end": 51,
+        "confidence_entity": 0.9999972581863403,
+        "value": "toronto",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 52,
+        "end": 59,
+        "confidence_entity": 0.9996439218521118,
+        "value": "detroit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 64,
+        "end": 66,
+        "confidence_entity": 0.9999483823776245,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 68,
+        "end": 73,
+        "confidence_entity": 0.9999217987060547,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "and now show me ground transportation that i could get in boston late night",
+    "entities": [
+      {
+        "start": 58,
+        "end": 64,
+        "value": "boston",
+        "entity": "city_name"
+      },
+      {
+        "start": 65,
+        "end": 69,
+        "value": "late",
+        "entity": "period_of_day"
+      },
+      {
+        "start": 70,
+        "end": 75,
+        "value": "night",
+        "entity": "period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city_name",
+        "start": 58,
+        "end": 64,
+        "confidence_entity": 0.9986483454704285,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "time_relative",
+        "start": 65,
+        "end": 69,
+        "confidence_entity": 0.14858309924602509,
+        "value": "late",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "period_of_day",
+        "start": 70,
+        "end": 75,
+        "confidence_entity": 0.915552020072937,
+        "value": "night",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is phl",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "phl",
+        "entity": "airport_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_code",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.7800067067146301,
+        "value": "phl",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what does not sa mean",
+    "entities": [
+      {
+        "start": 10,
+        "end": 13,
+        "value": "not",
+        "entity": "mod"
+      },
+      {
+        "start": 14,
+        "end": 16,
+        "value": "sa",
+        "entity": "days_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_code",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.3421906530857086,
+        "value": "not",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "days_code",
+        "start": 14,
+        "end": 16,
+        "confidence_entity": 0.7349308133125305,
+        "value": "sa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what ground transportation is available from dallas fort worth airport to downtown dallas",
+    "entities": [
+      {
+        "start": 45,
+        "end": 70,
+        "value": "dallas fort worth airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 83,
+        "end": 89,
+        "value": "dallas",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 45,
+        "end": 70,
+        "confidence_entity": 0.9971477389335632,
+        "value": "dallas fort worth airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 83,
+        "end": 89,
+        "confidence_entity": 0.9999690055847168,
+        "value": "dallas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what ground transportation is available between phoenix airport and downtown phoenix",
+    "entities": [
+      {
+        "start": 48,
+        "end": 63,
+        "value": "phoenix airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 77,
+        "end": 84,
+        "value": "phoenix",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 48,
+        "end": 63,
+        "confidence_entity": 0.9978383183479309,
+        "value": "phoenix airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 77,
+        "end": 84,
+        "confidence_entity": 0.9999490976333618,
+        "value": "phoenix",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what ground transportation is available between pittsburgh airport and downtown pittsburgh",
+    "entities": [
+      {
+        "start": 48,
+        "end": 66,
+        "value": "pittsburgh airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 80,
+        "end": 90,
+        "value": "pittsburgh",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 48,
+        "end": 66,
+        "confidence_entity": 0.9998188614845276,
+        "value": "pittsburgh airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 80,
+        "end": 90,
+        "confidence_entity": 0.999890923500061,
+        "value": "pittsburgh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what ground transportation is available between dca and downtown washington",
+    "entities": [
+      {
+        "start": 48,
+        "end": 51,
+        "value": "dca",
+        "entity": "airport_code"
+      },
+      {
+        "start": 65,
+        "end": 75,
+        "value": "washington",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.state_code",
+        "start": 48,
+        "end": 51,
+        "confidence_entity": 0.9909541010856628,
+        "value": "dca",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 65,
+        "end": 75,
+        "confidence_entity": 0.9999780654907227,
+        "value": "washington",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the flights between dca and milwaukee",
+    "entities": [
+      {
+        "start": 29,
+        "end": 32,
+        "value": "dca",
+        "entity": "airport_code"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "value": "milwaukee",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.state_code",
+        "start": 29,
+        "end": 32,
+        "confidence_entity": 0.9920250177383423,
+        "value": "dca",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.9994157552719116,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what ground transportation is available between milwaukee airport and downtown milwaukee",
+    "entities": [
+      {
+        "start": 48,
+        "end": 65,
+        "value": "milwaukee airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 79,
+        "end": 88,
+        "value": "milwaukee",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 48,
+        "end": 65,
+        "confidence_entity": 0.5801811814308167,
+        "value": "milwaukee airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 79,
+        "end": 88,
+        "confidence_entity": 0.9998107552528381,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "determine the type of aircraft used on a flight from cleveland to dallas that leaves before noon",
+    "entities": [
+      {
+        "start": 53,
+        "end": 62,
+        "value": "cleveland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 66,
+        "end": 72,
+        "value": "dallas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 85,
+        "end": 91,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 92,
+        "end": 96,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 53,
+        "end": 62,
+        "confidence_entity": 0.999996542930603,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 66,
+        "end": 72,
+        "confidence_entity": 0.9999945163726807,
+        "value": "dallas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 85,
+        "end": 91,
+        "confidence_entity": 0.9999557733535767,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 92,
+        "end": 96,
+        "confidence_entity": 0.9910554885864258,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find a flight between st. petersburg and charlotte the flight should leave in the afternoon and arrive as soon after 5 pm as possible it should be a nonstop flight",
+    "entities": [
+      {
+        "start": 22,
+        "end": 36,
+        "value": "st. petersburg",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "value": "charlotte",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 82,
+        "end": 91,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 111,
+        "end": 116,
+        "value": "after",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 117,
+        "end": 121,
+        "value": "5 pm",
+        "entity": "arrive_time.time"
+      },
+      {
+        "start": 149,
+        "end": 156,
+        "value": "nonstop",
+        "entity": "flight_stop"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.9996277093887329,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.9997081160545349,
+        "value": "petersburg",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.9999951124191284,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.period_of_day",
+        "start": 82,
+        "end": 91,
+        "confidence_entity": 0.5474697947502136,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 111,
+        "end": 116,
+        "confidence_entity": 0.9998688697814941,
+        "value": "after",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 117,
+        "end": 121,
+        "confidence_entity": 0.999679684638977,
+        "value": "5 pm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flight_stop",
+        "start": 149,
+        "end": 156,
+        "confidence_entity": 0.9999390840530396,
+        "value": "nonstop",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want a flight from nashville to seattle that arrives no later than 3 pm",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "nashville",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "value": "seattle",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 55,
+        "end": 68,
+        "value": "no later than",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 69,
+        "end": 73,
+        "value": "3 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9999995231628418,
+        "value": "nashville",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.9999963045120239,
+        "value": "seattle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 58,
+        "end": 63,
+        "confidence_entity": 0.968845784664154,
+        "value": "later",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 69,
+        "end": 73,
+        "confidence_entity": 0.9995813965797424,
+        "value": "3 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want a flight from memphis to seattle that arrives no later than 3 pm",
+    "entities": [
+      {
+        "start": 21,
+        "end": 28,
+        "value": "memphis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "value": "seattle",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "value": "no later than",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "value": "3 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9999990463256836,
+        "value": "memphis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 32,
+        "end": 39,
+        "confidence_entity": 0.9999970197677612,
+        "value": "seattle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 56,
+        "end": 61,
+        "confidence_entity": 0.9699767231941223,
+        "value": "later",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.999609649181366,
+        "value": "3 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "get flight from toronto to san diego stopping at dtw",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "toronto",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "san diego",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "value": "dtw",
+        "entity": "stoploc.airport_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9999982118606567,
+        "value": "toronto",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9999717473983765,
+        "value": "san diego",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 49,
+        "end": 52,
+        "confidence_entity": 0.858275830745697,
+        "value": "dtw",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need flight information for a flight departing from indianapolis to cleveland departing tuesday at noon",
+    "entities": [
+      {
+        "start": 54,
+        "end": 66,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 70,
+        "end": 79,
+        "value": "cleveland",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 90,
+        "end": 97,
+        "value": "tuesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 101,
+        "end": 105,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 54,
+        "end": 66,
+        "confidence_entity": 0.9999978542327881,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 70,
+        "end": 79,
+        "confidence_entity": 0.9999966621398926,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 90,
+        "end": 97,
+        "confidence_entity": 0.9999947547912598,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 101,
+        "end": 105,
+        "confidence_entity": 0.9989357590675354,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need flight and fare information for thursday departing prior to 9 am from oakland going to salt lake city",
+    "entities": [
+      {
+        "start": 39,
+        "end": 47,
+        "value": "thursday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "value": "prior to",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "value": "9 am",
+        "entity": "depart_time.time"
+      },
+      {
+        "start": 77,
+        "end": 84,
+        "value": "oakland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 94,
+        "end": 108,
+        "value": "salt lake city",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "depart_date.day_name",
+        "start": 39,
+        "end": 47,
+        "confidence_entity": 0.9999967813491821,
+        "value": "thursday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.9877063632011414,
+        "value": "9 am",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 77,
+        "end": 84,
+        "confidence_entity": 0.9999978542327881,
+        "value": "oakland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 94,
+        "end": 108,
+        "confidence_entity": 0.9988981485366821,
+        "value": "salt lake city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list airports in arizona nevada and california please",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "arizona nevada",
+        "entity": "state_name"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "value": "california",
+        "entity": "state_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.state_name",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.4560451805591583,
+        "value": "arizona",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "state_name",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.3959895372390747,
+        "value": "nevada",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_name",
+        "start": 36,
+        "end": 46,
+        "confidence_entity": 0.8413229584693909,
+        "value": "california",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list california nevada arizona airports",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "california",
+        "entity": "state_name"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "nevada",
+        "entity": "state_name"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "value": "arizona",
+        "entity": "state_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airport_name",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.7237372994422913,
+        "value": "california",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airport_name",
+        "start": 16,
+        "end": 39,
+        "confidence_entity": 0.3790375888347626,
+        "value": "nevada arizona airports",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the arizona airport",
+    "entities": [
+      {
+        "start": 9,
+        "end": 16,
+        "value": "arizona",
+        "entity": "state_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airport_name",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.5231050848960876,
+        "value": "arizona airport",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list california airports",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "california",
+        "entity": "state_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airport_name",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.7895852327346802,
+        "value": "california",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is tpa",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "tpa",
+        "entity": "airport_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_code",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.8919418454170227,
+        "value": "tpa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please list only the flights from cleveland to dallas that leave before noon",
+    "entities": [
+      {
+        "start": 34,
+        "end": 43,
+        "value": "cleveland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 47,
+        "end": 53,
+        "value": "dallas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 65,
+        "end": 71,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.9999990463256836,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 47,
+        "end": 53,
+        "confidence_entity": 0.9999977350234985,
+        "value": "dallas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 65,
+        "end": 71,
+        "confidence_entity": 0.9999756813049316,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 72,
+        "end": 76,
+        "confidence_entity": 0.9996247291564941,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what type of aircraft are flying from cleveland to dallas before noon",
+    "entities": [
+      {
+        "start": 38,
+        "end": 47,
+        "value": "cleveland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 51,
+        "end": 57,
+        "value": "dallas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 58,
+        "end": 64,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 65,
+        "end": 69,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 38,
+        "end": 47,
+        "confidence_entity": 0.9999994039535522,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 51,
+        "end": 57,
+        "confidence_entity": 0.9999967813491821,
+        "value": "dallas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 58,
+        "end": 64,
+        "confidence_entity": 0.9999092817306519,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 65,
+        "end": 69,
+        "confidence_entity": 0.999716579914093,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "round trip flights from orlando to montreal please",
+    "entities": [
+      {
+        "start": 1,
+        "end": 11,
+        "value": "round trip",
+        "entity": "round_trip"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "orlando",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "montreal",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9999963045120239,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 35,
+        "end": 43,
+        "confidence_entity": 0.9999953508377075,
+        "value": "montreal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kansas city to las vegas economy",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "kansas city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 24,
+        "value": "las vegas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "value": "economy",
+        "entity": "economy"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 24,
+        "confidence_entity": 0.999708354473114,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "economy",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9983277916908264,
+        "value": "economy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "las vegas to baltimore economy",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "las vegas",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "baltimore",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "value": "economy",
+        "entity": "economy"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9999871253967285,
+        "value": "baltimore",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "economy",
+        "start": 23,
+        "end": 30,
+        "confidence_entity": 0.9986560344696045,
+        "value": "economy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "baltimore to kansas city economy",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "baltimore",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 24,
+        "value": "kansas city",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "value": "economy",
+        "entity": "economy"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 24,
+        "confidence_entity": 0.9978607296943665,
+        "value": "kansas city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "economy",
+        "start": 25,
+        "end": 32,
+        "confidence_entity": 0.9930984377861023,
+        "value": "economy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "columbus to chicago one way before 10 am",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "value": "columbus",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 12,
+        "end": 19,
+        "value": "chicago",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "value": "one way",
+        "entity": "round_trip"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "value": "10 am",
+        "entity": "depart_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9996970891952515,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "round_trip",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9998362064361572,
+        "value": "one way",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.9997901320457458,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9999085664749146,
+        "value": "10 am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "st. petersburg to detroit",
+    "entities": [
+      {
+        "start": 1,
+        "end": 15,
+        "value": "st. petersburg",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "value": "detroit",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9999943971633911,
+        "value": "detroit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what airline is as as in sam",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "value": "as",
+        "entity": "airline_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city_name",
+        "start": 25,
+        "end": 28,
+        "confidence_entity": 0.9191015958786011,
+        "value": "sam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list distance from airports to downtown in new york",
+    "entities": [
+      {
+        "start": 43,
+        "end": 51,
+        "value": "new york",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.9932377338409424,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list la",
+    "entities": [
+      {
+        "start": 5,
+        "end": 7,
+        "value": "la",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airport_code",
+        "start": 5,
+        "end": 7,
+        "confidence_entity": 0.7564870715141296,
+        "value": "la",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what class is fare code q",
+    "entities": [
+      {
+        "start": 24,
+        "end": 25,
+        "value": "q",
+        "entity": "booking_class"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fare_basis_code",
+        "start": 24,
+        "end": 25,
+        "confidence_entity": 0.9994163513183594,
+        "value": "q",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list flights from cincinnati to tampa before noon",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "cincinnati",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "value": "tampa",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.9999951124191284,
+        "value": "cincinnati",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9999902248382568,
+        "value": "tampa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.9999117851257324,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.9992455244064331,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheapest round trip fare from or indianapolis to orlando on december twenty fifth",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "value": "cheapest",
+        "entity": "cost_relative"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "value": "round trip",
+        "entity": "round_trip"
+      },
+      {
+        "start": 33,
+        "end": 45,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 60,
+        "end": 68,
+        "value": "december",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 69,
+        "end": 81,
+        "value": "twenty fifth",
+        "entity": "depart_date.day_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "round_trip",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.99981290102005,
+        "value": "round trip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "or",
+        "start": 30,
+        "end": 32,
+        "confidence_entity": 0.8264979720115662,
+        "value": "or",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 33,
+        "end": 45,
+        "confidence_entity": 0.9999992847442627,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 49,
+        "end": 56,
+        "confidence_entity": 0.9999861717224121,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 60,
+        "end": 68,
+        "confidence_entity": 0.9999033212661743,
+        "value": "december",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 69,
+        "end": 81,
+        "confidence_entity": 0.9997652173042297,
+        "value": "twenty fifth",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheapest one way fare from indianapolis to orlando on december twenty seventh",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "value": "cheapest",
+        "entity": "cost_relative"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "value": "one way",
+        "entity": "round_trip"
+      },
+      {
+        "start": 27,
+        "end": 39,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 54,
+        "end": 62,
+        "value": "december",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 63,
+        "end": 77,
+        "value": "twenty seventh",
+        "entity": "depart_date.day_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "round_trip",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9991627931594849,
+        "value": "one way",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 27,
+        "end": 39,
+        "confidence_entity": 0.9999996423721313,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 43,
+        "end": 50,
+        "confidence_entity": 0.9999890327453613,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 54,
+        "end": 62,
+        "confidence_entity": 0.9999425411224365,
+        "value": "december",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 63,
+        "end": 77,
+        "confidence_entity": 0.999663233757019,
+        "value": "twenty seventh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "saturday flight on american airlines from milwaukee to phoenix",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 19,
+        "end": 36,
+        "value": "american airlines",
+        "entity": "airline_name"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "value": "milwaukee",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 55,
+        "end": 62,
+        "value": "phoenix",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 19,
+        "end": 36,
+        "confidence_entity": 0.9999613761901855,
+        "value": "american airlines",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 42,
+        "end": 51,
+        "confidence_entity": 0.9999992847442627,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 55,
+        "end": 62,
+        "confidence_entity": 0.9999871253967285,
+        "value": "phoenix",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "newark to tampa on friday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 7,
+        "value": "newark",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "tampa",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "friday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9998183846473694,
+        "value": "tampa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9999880790710449,
+        "value": "friday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampa to charlotte sunday morning",
+    "entities": [
+      {
+        "start": 1,
+        "end": 6,
+        "value": "tampa",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "value": "charlotte",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "sunday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9999053478240967,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9999773502349854,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9999896287918091,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "charlotte to baltimore on tuesday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "charlotte",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "baltimore",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "tuesday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9999914169311523,
+        "value": "baltimore",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9999778270721436,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "baltimore to newark wednesday morning",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "baltimore",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "newark",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 20,
+        "end": 29,
+        "value": "wednesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 19,
+        "confidence_entity": 0.999882698059082,
+        "value": "newark",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9999626874923706,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9998332262039185,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dallas to houston after 1201 am",
+    "entities": [
+      {
+        "start": 1,
+        "end": 7,
+        "value": "dallas",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "value": "houston",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "after",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "1201 am",
+        "entity": "depart_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.9998470544815063,
+        "value": "houston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 18,
+        "end": 23,
+        "confidence_entity": 0.9998916387557983,
+        "value": "after",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9999276399612427,
+        "value": "1201 am",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "houston to dallas before midnight",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "houston",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 17,
+        "value": "dallas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "value": "midnight",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.999489426612854,
+        "value": "dallas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9996055960655212,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.9996304512023926,
+        "value": "midnight",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "indianapolis to orlando december twenty seventh",
+    "entities": [
+      {
+        "start": 1,
+        "end": 13,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "value": "december",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 33,
+        "end": 47,
+        "value": "twenty seventh",
+        "entity": "depart_date.day_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9999364614486694,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.999454915523529,
+        "value": "december",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 33,
+        "end": 47,
+        "confidence_entity": 0.9993281364440918,
+        "value": "twenty seventh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheapest fare from indianapolis to orlando on the twenty seventh of december",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "value": "cheapest",
+        "entity": "cost_relative"
+      },
+      {
+        "start": 19,
+        "end": 31,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 50,
+        "end": 64,
+        "value": "twenty seventh",
+        "entity": "depart_date.day_number"
+      },
+      {
+        "start": 68,
+        "end": 76,
+        "value": "december",
+        "entity": "depart_date.month_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 19,
+        "end": 31,
+        "confidence_entity": 0.9999995231628418,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9999710321426392,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 50,
+        "end": 64,
+        "confidence_entity": 0.9993128776550293,
+        "value": "twenty seventh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 68,
+        "end": 76,
+        "confidence_entity": 0.9999215602874756,
+        "value": "december",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cheapest fare round trip from indianapolis to orlando on december twenty seventh",
+    "entities": [
+      {
+        "start": 1,
+        "end": 9,
+        "value": "cheapest",
+        "entity": "cost_relative"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "value": "round trip",
+        "entity": "round_trip"
+      },
+      {
+        "start": 30,
+        "end": 42,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 57,
+        "end": 65,
+        "value": "december",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 66,
+        "end": 80,
+        "value": "twenty seventh",
+        "entity": "depart_date.day_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "round_trip",
+        "start": 14,
+        "end": 24,
+        "confidence_entity": 0.9999172687530518,
+        "value": "round trip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 30,
+        "end": 42,
+        "confidence_entity": 0.9999996423721313,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 46,
+        "end": 53,
+        "confidence_entity": 0.9999904632568359,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 57,
+        "end": 65,
+        "confidence_entity": 0.9998897314071655,
+        "value": "december",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 66,
+        "end": 80,
+        "confidence_entity": 0.9996308088302612,
+        "value": "twenty seventh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cleveland to miami on wednesday arriving before 4 pm",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "cleveland",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "miami",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 22,
+        "end": 31,
+        "value": "wednesday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 48,
+        "end": 52,
+        "value": "4 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9998346567153931,
+        "value": "miami",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.9995301961898804,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 41,
+        "end": 47,
+        "confidence_entity": 0.9998844861984253,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 48,
+        "end": 52,
+        "confidence_entity": 0.999830961227417,
+        "value": "4 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "miami to cleveland sunday afternoon",
+    "entities": [
+      {
+        "start": 1,
+        "end": 6,
+        "value": "miami",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "value": "cleveland",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "value": "sunday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9999927282333374,
+        "value": "cleveland",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.9999911785125732,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9999547004699707,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "new york city to las vegas and memphis to las vegas on sunday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 14,
+        "value": "new york city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "value": "las vegas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "value": "memphis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "value": "las vegas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 55,
+        "end": 61,
+        "value": "sunday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 4,
+        "end": 13,
+        "confidence_entity": 0.5543577075004578,
+        "value": "york city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.9992364645004272,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 31,
+        "end": 38,
+        "confidence_entity": 0.9999938011169434,
+        "value": "memphis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 42,
+        "end": 51,
+        "confidence_entity": 0.9998247027397156,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 55,
+        "end": 61,
+        "confidence_entity": 0.9999918937683105,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "memphis to las vegas sunday afternoon",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "memphis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "las vegas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "value": "sunday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 28,
+        "end": 37,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9992073178291321,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9999456405639648,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.9999904632568359,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chicago to seattle saturday morning",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "chicago",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "seattle",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9998698234558105,
+        "value": "seattle",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.9999886751174927,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 28,
+        "end": 35,
+        "confidence_entity": 0.9999332427978516,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chicago to las vegas saturday morning",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "chicago",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "las vegas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "morning",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.999849796295166,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.999981164932251,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.9999934434890747,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "los angeles to pittsburgh afternoon tuesday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "los angeles",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "value": "pittsburgh",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 36,
+        "end": 43,
+        "value": "tuesday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.9999637603759766,
+        "value": "pittsburgh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9998735189437866,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 36,
+        "end": 43,
+        "confidence_entity": 0.9999905824661255,
+        "value": "tuesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "los angeles to pittsburgh afternoon on monday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 12,
+        "value": "los angeles",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "value": "pittsburgh",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "value": "afternoon",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "value": "monday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 15,
+        "end": 25,
+        "confidence_entity": 0.9999784231185913,
+        "value": "pittsburgh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 26,
+        "end": 35,
+        "confidence_entity": 0.9999417066574097,
+        "value": "afternoon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 39,
+        "end": 45,
+        "confidence_entity": 0.9999958276748657,
+        "value": "monday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pittsburgh to los angeles thursday evening",
+    "entities": [
+      {
+        "start": 1,
+        "end": 11,
+        "value": "pittsburgh",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "value": "los angeles",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "value": "thursday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "value": "evening",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.9998724460601807,
+        "value": "los angeles",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 26,
+        "end": 34,
+        "confidence_entity": 0.9999738931655884,
+        "value": "thursday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.period_of_day",
+        "start": 35,
+        "end": 42,
+        "confidence_entity": 0.9999300241470337,
+        "value": "evening",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "milwaukee to phoenix on saturday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 10,
+        "value": "milwaukee",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "value": "phoenix",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.9999905824661255,
+        "value": "phoenix",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 24,
+        "end": 32,
+        "confidence_entity": 0.9999798536300659,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phoenix to milwaukee on sunday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "phoenix",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "milwaukee",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "value": "sunday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.9993038177490234,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 24,
+        "end": 30,
+        "confidence_entity": 0.9999762773513794,
+        "value": "sunday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "phoenix to milwaukee on wednesday",
+    "entities": [
+      {
+        "start": 1,
+        "end": 8,
+        "value": "phoenix",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 11,
+        "end": 20,
+        "value": "milwaukee",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "wednesday",
+        "entity": "depart_date.day_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "toloc.city_name",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.999011754989624,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9999474287033081,
+        "value": "wednesday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a flight from baltimore to san francisco arriving between 5 and 8 pm",
+    "entities": [
+      {
+        "start": 2,
+        "end": 8,
+        "value": "flight",
+        "entity": "flight"
+      },
+      {
+        "start": 14,
+        "end": 23,
+        "value": "baltimore",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 27,
+        "end": 40,
+        "value": "san francisco",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 58,
+        "end": 59,
+        "value": "5",
+        "entity": "arrive_time.start_time"
+      },
+      {
+        "start": 64,
+        "end": 68,
+        "value": "8 pm",
+        "entity": "arrive_time.end_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.9999994039535522,
+        "value": "baltimore",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 27,
+        "end": 40,
+        "confidence_entity": 0.9999635219573975,
+        "value": "san francisco",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.start_time",
+        "start": 58,
+        "end": 59,
+        "confidence_entity": 0.9703630208969116,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.end_time",
+        "start": 64,
+        "end": 68,
+        "confidence_entity": 0.9915016889572144,
+        "value": "8 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "are meals ever served on tower air",
+    "entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "meals",
+        "entity": "meal"
+      },
+      {
+        "start": 25,
+        "end": 34,
+        "value": "tower air",
+        "entity": "airline_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "meal",
+        "start": 4,
+        "end": 9,
+        "confidence_entity": 0.9988161325454712,
+        "value": "meals",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airport_code",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9129514694213867,
+        "value": "ever",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_name",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.9999799728393555,
+        "value": "tower air",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "are snacks served on tower air",
+    "entities": [
+      {
+        "start": 4,
+        "end": 10,
+        "value": "snacks",
+        "entity": "meal_description"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "value": "tower air",
+        "entity": "airline_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5206118226051331,
+        "value": "snacks",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airline_name",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.9999877214431763,
+        "value": "tower air",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the cost of a first class ticket from detroit to las vegas and back",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "value": "first class",
+        "entity": "class_type"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "value": "detroit",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 57,
+        "end": 66,
+        "value": "las vegas",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "value": "back",
+        "entity": "round_trip"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "class_type",
+        "start": 22,
+        "end": 33,
+        "confidence_entity": 0.9998043179512024,
+        "value": "first class",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 46,
+        "end": 53,
+        "confidence_entity": 0.9999983310699463,
+        "value": "detroit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 57,
+        "end": 66,
+        "confidence_entity": 0.999881386756897,
+        "value": "las vegas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the earliest arriving flight from boston to washington dc",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "earliest arriving",
+        "entity": "flight_mod"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "value": "boston",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "value": "washington",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 63,
+        "end": 65,
+        "value": "dc",
+        "entity": "toloc.state_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_mod",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9999943971633911,
+        "value": "earliest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.9999997615814209,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 52,
+        "end": 62,
+        "confidence_entity": 0.9999806880950928,
+        "value": "washington",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_code",
+        "start": 63,
+        "end": 65,
+        "confidence_entity": 0.9998399019241333,
+        "value": "dc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the earliest arriving flight between boston and washington dc",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "earliest arriving",
+        "entity": "flight_mod"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "value": "boston",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "value": "washington",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 67,
+        "end": 69,
+        "value": "dc",
+        "entity": "toloc.state_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_mod",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9999908208847046,
+        "value": "earliest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.9999969005584717,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 56,
+        "end": 66,
+        "confidence_entity": 0.9999817609786987,
+        "value": "washington",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_code",
+        "start": 67,
+        "end": 69,
+        "confidence_entity": 0.9998112320899963,
+        "value": "dc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what 's the earliest arriving flight between boston and washington dc",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "earliest arriving",
+        "entity": "flight_mod"
+      },
+      {
+        "start": 45,
+        "end": 51,
+        "value": "boston",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "value": "washington",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 67,
+        "end": 69,
+        "value": "dc",
+        "entity": "toloc.state_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_mod",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9999926090240479,
+        "value": "earliest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 45,
+        "end": 51,
+        "confidence_entity": 0.9999955892562866,
+        "value": "boston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 56,
+        "end": 66,
+        "confidence_entity": 0.9999847412109375,
+        "value": "washington",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_code",
+        "start": 67,
+        "end": 69,
+        "confidence_entity": 0.9997977614402771,
+        "value": "dc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the earliest arriving flight from houston to orlando",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "earliest arriving",
+        "entity": "flight_mod"
+      },
+      {
+        "start": 42,
+        "end": 49,
+        "value": "houston",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "value": "orlando",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_mod",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9999897480010986,
+        "value": "earliest",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 42,
+        "end": 49,
+        "confidence_entity": 0.9999996423721313,
+        "value": "houston",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 53,
+        "end": 60,
+        "confidence_entity": 0.9999498128890991,
+        "value": "orlando",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the airlines with flights to or from denver",
+    "entities": [
+      {
+        "start": 42,
+        "end": 48,
+        "value": "denver",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.9999986886978149,
+        "value": "denver",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list all of the daily flights arriving in denver from 8 to 9 pm",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "daily",
+        "entity": "flight_days"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "value": "denver",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "value": "8",
+        "entity": "arrive_time.start_time"
+      },
+      {
+        "start": 59,
+        "end": 63,
+        "value": "9 pm",
+        "entity": "arrive_time.end_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_days",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.9998998641967773,
+        "value": "daily",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 42,
+        "end": 48,
+        "confidence_entity": 0.9999916553497314,
+        "value": "denver",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 54,
+        "end": 55,
+        "confidence_entity": 0.598685085773468,
+        "value": "8",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 59,
+        "end": 63,
+        "confidence_entity": 0.514514684677124,
+        "value": "9 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list all flights arriving or leaving denver between 8 and 9 pm",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "denver",
+        "entity": "city_name"
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "value": "8",
+        "entity": "depart_time.start_time"
+      },
+      {
+        "start": 58,
+        "end": 62,
+        "value": "9 pm",
+        "entity": "depart_time.end_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "or",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9972805976867676,
+        "value": "or",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 37,
+        "end": 43,
+        "confidence_entity": 0.7552042007446289,
+        "value": "denver",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.start_time",
+        "start": 52,
+        "end": 53,
+        "confidence_entity": 0.9844240546226501,
+        "value": "8",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.end_time",
+        "start": 58,
+        "end": 62,
+        "confidence_entity": 0.9927873015403748,
+        "value": "9 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is there ground transportation from the memphis airport into town when if i arrive at 842 in the morning",
+    "entities": [
+      {
+        "start": 40,
+        "end": 55,
+        "value": "memphis airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 97,
+        "end": 104,
+        "value": "morning",
+        "entity": "period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 40,
+        "end": 55,
+        "confidence_entity": 0.9972708821296692,
+        "value": "memphis airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 86,
+        "end": 89,
+        "confidence_entity": 0.9879903197288513,
+        "value": "842",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.period_of_day",
+        "start": 97,
+        "end": 104,
+        "confidence_entity": 0.9958395957946777,
+        "value": "morning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is cvg",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "cvg",
+        "entity": "airport_code"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_code",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.6850067377090454,
+        "value": "cvg",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what ground transportation is available from la guardia airport into new york city",
+    "entities": [
+      {
+        "start": 45,
+        "end": 63,
+        "value": "la guardia airport",
+        "entity": "airport_name"
+      },
+      {
+        "start": 69,
+        "end": 82,
+        "value": "new york city",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 45,
+        "end": 63,
+        "confidence_entity": 0.976596474647522,
+        "value": "la guardia airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 69,
+        "end": 82,
+        "confidence_entity": 0.8836631178855896,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is there ground transportation from lga into new york city",
+    "entities": [
+      {
+        "start": 36,
+        "end": 39,
+        "value": "lga",
+        "entity": "airport_code"
+      },
+      {
+        "start": 45,
+        "end": 58,
+        "value": "new york city",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city_name",
+        "start": 45,
+        "end": 58,
+        "confidence_entity": 0.77,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please list the ground transportation from lga into new york city",
+    "entities": [
+      {
+        "start": 43,
+        "end": 46,
+        "value": "lga",
+        "entity": "airport_code"
+      },
+      {
+        "start": 52,
+        "end": 65,
+        "value": "new york city",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city_name",
+        "start": 52,
+        "end": 65,
+        "confidence_entity": 0.4228663444519043,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please list ground transportation from ewr into new york city",
+    "entities": [
+      {
+        "start": 39,
+        "end": 42,
+        "value": "ewr",
+        "entity": "airport_code"
+      },
+      {
+        "start": 48,
+        "end": 61,
+        "value": "new york city",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_code",
+        "start": 39,
+        "end": 42,
+        "confidence_entity": 0.9179675579071045,
+        "value": "ewr",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "city_name",
+        "start": 48,
+        "end": 61,
+        "confidence_entity": 0.77,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me about the ground transportation from nashville airport",
+    "entities": [
+      {
+        "start": 45,
+        "end": 62,
+        "value": "nashville airport",
+        "entity": "airport_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 45,
+        "end": 62,
+        "confidence_entity": 0.9996168613433838,
+        "value": "nashville airport",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the nonstop flights from cincinnati to charlotte leaving after noon and arriving before 7 pm",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "nonstop",
+        "entity": "flight_stop"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "value": "cincinnati",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "value": "charlotte",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 66,
+        "end": 71,
+        "value": "after",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      },
+      {
+        "start": 90,
+        "end": 96,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 97,
+        "end": 101,
+        "value": "7 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "flight_stop",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.9999794960021973,
+        "value": "nonstop",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.9999983310699463,
+        "value": "cincinnati",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 48,
+        "end": 57,
+        "confidence_entity": 0.9999955892562866,
+        "value": "charlotte",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 66,
+        "end": 71,
+        "confidence_entity": 0.9991746544837952,
+        "value": "after",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 72,
+        "end": 76,
+        "confidence_entity": 0.9968265891075134,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 90,
+        "end": 96,
+        "confidence_entity": 0.9999299049377441,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 97,
+        "end": 101,
+        "confidence_entity": 0.9997761845588684,
+        "value": "7 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the flights from indianapolis to memphis that leave before noon",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "indianapolis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 38,
+        "end": 45,
+        "value": "memphis",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 57,
+        "end": 63,
+        "value": "before",
+        "entity": "depart_time.time_relative"
+      },
+      {
+        "start": 64,
+        "end": 68,
+        "value": "noon",
+        "entity": "depart_time.period_of_day"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 22,
+        "end": 34,
+        "confidence_entity": 0.999998927116394,
+        "value": "indianapolis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.9999940395355225,
+        "value": "memphis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time_relative",
+        "start": 57,
+        "end": 63,
+        "confidence_entity": 0.9999558925628662,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_time.time",
+        "start": 64,
+        "end": 68,
+        "confidence_entity": 0.9995641112327576,
+        "value": "noon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is there taxi service at the ontario airport",
+    "entities": [
+      {
+        "start": 9,
+        "end": 21,
+        "value": "taxi service",
+        "entity": "transport_type"
+      },
+      {
+        "start": 29,
+        "end": 44,
+        "value": "ontario airport",
+        "entity": "airport_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "transport_type",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9956291913986206,
+        "value": "taxi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "airport_name",
+        "start": 29,
+        "end": 44,
+        "confidence_entity": 0.9978874325752258,
+        "value": "ontario airport",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need a flight from salt lake to newark airport that arrives on saturday before 6 pm",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "salt lake",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "value": "newark airport",
+        "entity": "toloc.airport_name"
+      },
+      {
+        "start": 65,
+        "end": 73,
+        "value": "saturday",
+        "entity": "arrive_date.day_name"
+      },
+      {
+        "start": 74,
+        "end": 80,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 81,
+        "end": 85,
+        "value": "6 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.airport_name",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.66,
+        "value": "salt lake",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.airport_name",
+        "start": 34,
+        "end": 48,
+        "confidence_entity": 0.9889845848083496,
+        "value": "newark airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 65,
+        "end": 73,
+        "confidence_entity": 0.9998388290405273,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 74,
+        "end": 80,
+        "confidence_entity": 0.9998947381973267,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 81,
+        "end": 85,
+        "confidence_entity": 0.999884843826294,
+        "value": "6 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you find me a flight from salt lake city to new york city next saturday before arriving before 6 pm",
+    "entities": [
+      {
+        "start": 30,
+        "end": 44,
+        "value": "salt lake city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 48,
+        "end": 61,
+        "value": "new york city",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 62,
+        "end": 66,
+        "value": "next",
+        "entity": "depart_date.date_relative"
+      },
+      {
+        "start": 67,
+        "end": 75,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 92,
+        "end": 98,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 99,
+        "end": 103,
+        "value": "6 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 30,
+        "end": 44,
+        "confidence_entity": 0.9983899593353271,
+        "value": "salt lake city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 48,
+        "end": 61,
+        "confidence_entity": 0.994098424911499,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.date_relative",
+        "start": 62,
+        "end": 66,
+        "confidence_entity": 0.7191187143325806,
+        "value": "next",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_name",
+        "start": 67,
+        "end": 75,
+        "confidence_entity": 0.979524552822113,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 76,
+        "end": 82,
+        "confidence_entity": 0.9998888969421387,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 92,
+        "end": 98,
+        "confidence_entity": 0.9999107122421265,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 99,
+        "end": 103,
+        "confidence_entity": 0.999875545501709,
+        "value": "6 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you list all of the delta flights from salt lake city to new york next saturday arriving before 6 pm",
+    "entities": [
+      {
+        "start": 24,
+        "end": 29,
+        "value": "delta",
+        "entity": "airline_name"
+      },
+      {
+        "start": 43,
+        "end": 57,
+        "value": "salt lake city",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 61,
+        "end": 69,
+        "value": "new york",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 70,
+        "end": 74,
+        "value": "next",
+        "entity": "depart_date.date_relative"
+      },
+      {
+        "start": 75,
+        "end": 83,
+        "value": "saturday",
+        "entity": "depart_date.day_name"
+      },
+      {
+        "start": 93,
+        "end": 99,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 100,
+        "end": 104,
+        "value": "6 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "airline_name",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.9996981620788574,
+        "value": "delta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 43,
+        "end": 57,
+        "confidence_entity": 0.998174786567688,
+        "value": "salt lake city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 61,
+        "end": 69,
+        "confidence_entity": 0.8461666703224182,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.date_relative",
+        "start": 70,
+        "end": 74,
+        "confidence_entity": 0.8541765213012695,
+        "value": "next",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 75,
+        "end": 83,
+        "confidence_entity": 0.9891006350517273,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 93,
+        "end": 99,
+        "confidence_entity": 0.9999195337295532,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 100,
+        "end": 104,
+        "confidence_entity": 0.9998422861099243,
+        "value": "6 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please find a flight round trip from los angeles to tacoma washington with a stopover in san francisco not exceeding the price of 300 dollars for june tenth 1993",
+    "entities": [
+      {
+        "start": 21,
+        "end": 31,
+        "value": "round trip",
+        "entity": "round_trip"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "value": "los angeles",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 52,
+        "end": 58,
+        "value": "tacoma",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "value": "washington",
+        "entity": "toloc.state_name"
+      },
+      {
+        "start": 89,
+        "end": 102,
+        "value": "san francisco",
+        "entity": "stoploc.city_name"
+      },
+      {
+        "start": 103,
+        "end": 116,
+        "value": "not exceeding",
+        "entity": "cost_relative"
+      },
+      {
+        "start": 130,
+        "end": 141,
+        "value": "300 dollars",
+        "entity": "fare_amount"
+      },
+      {
+        "start": 146,
+        "end": 150,
+        "value": "june",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 151,
+        "end": 156,
+        "value": "tenth",
+        "entity": "depart_date.day_number"
+      },
+      {
+        "start": 157,
+        "end": 161,
+        "value": "1993",
+        "entity": "depart_date.year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "round_trip",
+        "start": 21,
+        "end": 31,
+        "confidence_entity": 0.9998574256896973,
+        "value": "round trip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 37,
+        "end": 48,
+        "confidence_entity": 0.9990936517715454,
+        "value": "los angeles",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 52,
+        "end": 58,
+        "confidence_entity": 0.9999971389770508,
+        "value": "tacoma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.state_name",
+        "start": 59,
+        "end": 69,
+        "confidence_entity": 0.9997538924217224,
+        "value": "washington",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 89,
+        "end": 102,
+        "confidence_entity": 0.9901738166809082,
+        "value": "san francisco",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fare_amount",
+        "start": 130,
+        "end": 141,
+        "confidence_entity": 0.998054027557373,
+        "value": "300 dollars",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 146,
+        "end": 150,
+        "confidence_entity": 0.998530387878418,
+        "value": "june",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 151,
+        "end": 156,
+        "confidence_entity": 0.9990971088409424,
+        "value": "tenth",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fare_amount",
+        "start": 157,
+        "end": 161,
+        "confidence_entity": 0.9984650611877441,
+        "value": "1993",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please find a flight from ontario to westchester that makes a stop in chicago on may seventeenth one way with dinner",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "ontario",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "value": "westchester",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 70,
+        "end": 77,
+        "value": "chicago",
+        "entity": "stoploc.city_name"
+      },
+      {
+        "start": 81,
+        "end": 84,
+        "value": "may",
+        "entity": "depart_date.month_name"
+      },
+      {
+        "start": 85,
+        "end": 96,
+        "value": "seventeenth",
+        "entity": "depart_date.day_number"
+      },
+      {
+        "start": 97,
+        "end": 104,
+        "value": "one way",
+        "entity": "round_trip"
+      },
+      {
+        "start": 110,
+        "end": 116,
+        "value": "dinner",
+        "entity": "meal_description"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9999991655349731,
+        "value": "ontario",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 37,
+        "end": 48,
+        "confidence_entity": 0.9999587535858154,
+        "value": "westchester",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "flight_stop",
+        "start": 62,
+        "end": 66,
+        "confidence_entity": 0.8963003158569336,
+        "value": "stop",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 70,
+        "end": 77,
+        "confidence_entity": 0.9999873638153076,
+        "value": "chicago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.month_name",
+        "start": 81,
+        "end": 84,
+        "confidence_entity": 0.9926925897598267,
+        "value": "may",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "depart_date.day_number",
+        "start": 85,
+        "end": 96,
+        "confidence_entity": 0.9997134804725647,
+        "value": "seventeenth",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "round_trip",
+        "start": 97,
+        "end": 104,
+        "confidence_entity": 0.9619953632354736,
+        "value": "one way",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "meal_description",
+        "start": 110,
+        "end": 116,
+        "confidence_entity": 0.9994257688522339,
+        "value": "dinner",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find me all the flights from milwaukee to st. louis",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "milwaukee",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 42,
+        "end": 51,
+        "value": "st. louis",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9999995231628418,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 42,
+        "end": 44,
+        "confidence_entity": 0.9999915361404419,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.9999889135360718,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "now show me all the flights from st. louis to burbank",
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "value": "st. louis",
+        "entity": "city_name"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "value": "burbank",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 33,
+        "end": 35,
+        "confidence_entity": 0.9998182654380798,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9998700618743896,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 46,
+        "end": 53,
+        "confidence_entity": 0.9999898672103882,
+        "value": "burbank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "is there one airline that flies from burbank to milwaukee milwaukee to st. louis and from st. louis to burbank",
+    "entities": [
+      {
+        "start": 37,
+        "end": 44,
+        "value": "burbank",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "value": "milwaukee",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 58,
+        "end": 67,
+        "value": "milwaukee",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 71,
+        "end": 80,
+        "value": "st. louis",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 90,
+        "end": 99,
+        "value": "st. louis",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 103,
+        "end": 110,
+        "value": "burbank",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.9999896287918091,
+        "value": "burbank",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 48,
+        "end": 57,
+        "confidence_entity": 0.8732203841209412,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "stoploc.city_name",
+        "start": 58,
+        "end": 67,
+        "confidence_entity": 0.8731528520584106,
+        "value": "milwaukee",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 71,
+        "end": 73,
+        "confidence_entity": 0.9999669790267944,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 75,
+        "end": 80,
+        "confidence_entity": 0.999958872795105,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 90,
+        "end": 92,
+        "confidence_entity": 0.99974125623703,
+        "value": "st",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "fromloc.city_name",
+        "start": 94,
+        "end": 99,
+        "confidence_entity": 0.9999552965164185,
+        "value": "louis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 103,
+        "end": 110,
+        "confidence_entity": 0.9968430995941162,
+        "value": "burbank",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me all the airports in the new york city area",
+    "entities": [
+      {
+        "start": 32,
+        "end": 45,
+        "value": "new york city",
+        "entity": "city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 32,
+        "end": 45,
+        "confidence_entity": 0.4959242343902588,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please find all the flights from cincinnati to any airport in the new york city area that arrive next saturday before 6 pm",
+    "entities": [
+      {
+        "start": 33,
+        "end": 43,
+        "value": "cincinnati",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 66,
+        "end": 79,
+        "value": "new york city",
+        "entity": "toloc.city_name"
+      },
+      {
+        "start": 97,
+        "end": 101,
+        "value": "next",
+        "entity": "arrive_date.date_relative"
+      },
+      {
+        "start": 102,
+        "end": 110,
+        "value": "saturday",
+        "entity": "arrive_date.day_name"
+      },
+      {
+        "start": 111,
+        "end": 117,
+        "value": "before",
+        "entity": "arrive_time.time_relative"
+      },
+      {
+        "start": 118,
+        "end": 122,
+        "value": "6 pm",
+        "entity": "arrive_time.time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 33,
+        "end": 43,
+        "confidence_entity": 0.9994181394577026,
+        "value": "cincinnati",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.airport_name",
+        "start": 51,
+        "end": 58,
+        "confidence_entity": 0.6744204163551331,
+        "value": "airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 66,
+        "end": 79,
+        "confidence_entity": 0.8790610432624817,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.date_relative",
+        "start": 97,
+        "end": 101,
+        "confidence_entity": 0.7128310203552246,
+        "value": "next",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_date.day_name",
+        "start": 102,
+        "end": 110,
+        "confidence_entity": 0.9997797608375549,
+        "value": "saturday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time_relative",
+        "start": 111,
+        "end": 117,
+        "confidence_entity": 0.9999185800552368,
+        "value": "before",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "arrive_time.time",
+        "start": 118,
+        "end": 122,
+        "confidence_entity": 0.9998953342437744,
+        "value": "6 pm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find me a flight from cincinnati to any airport in the new york city area",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "cincinnati",
+        "entity": "fromloc.city_name"
+      },
+      {
+        "start": 55,
+        "end": 68,
+        "value": "new york city",
+        "entity": "toloc.city_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fromloc.city_name",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9888768792152405,
+        "value": "cincinnati",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.airport_name",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.8082435131072998,
+        "value": "airport",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "toloc.city_name",
+        "start": 55,
+        "end": 68,
+        "confidence_entity": 0.35181933641433716,
+        "value": "new york city",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,579 @@
+{
+  "city_name": {
+    "precision": 0.9137931034482759,
+    "recall": 0.6162790697674418,
+    "f1-score": 0.736111111111111,
+    "support": 86,
+    "confused_with": {
+      "toloc.city_name": 19,
+      "fromloc.city_name": 8
+    }
+  },
+  "depart_date.day_number": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 70,
+    "confused_with": {}
+  },
+  "depart_time.period_of_day": {
+    "precision": 0.975609756097561,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9486166007905139,
+    "support": 130,
+    "confused_with": {
+      "depart_time.time": 8
+    }
+  },
+  "arrive_time.time": {
+    "precision": 0.8985507246376812,
+    "recall": 0.8857142857142857,
+    "f1-score": 0.8920863309352518,
+    "support": 70,
+    "confused_with": {
+      "depart_time.time": 6
+    }
+  },
+  "fromloc.airport_name": {
+    "precision": 0.45,
+    "recall": 1.0,
+    "f1-score": 0.6206896551724138,
+    "support": 27,
+    "confused_with": {}
+  },
+  "arrive_date.day_number": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 6,
+    "confused_with": {
+      "depart_date.day_number": 5
+    }
+  },
+  "airport_code": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2222222222222222,
+    "f1-score": 0.3333333333333333,
+    "support": 9,
+    "confused_with": {
+      "fromloc.city_name": 5,
+      "airline_code": 2
+    }
+  },
+  "arrive_date.day_name": {
+    "precision": 0.875,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7368421052631579,
+    "support": 11,
+    "confused_with": {
+      "depart_date.day_name": 4
+    }
+  },
+  "depart_date.month_name": {
+    "precision": 0.9491525423728814,
+    "recall": 1.0,
+    "f1-score": 0.9739130434782608,
+    "support": 56,
+    "confused_with": {}
+  },
+  "flight_mod": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 26,
+    "confused_with": {}
+  },
+  "restriction_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "toloc.country_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "return_date.day_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "depart_date.day_name": 2
+    }
+  },
+  "class_type": {
+    "precision": 0.9736842105263158,
+    "recall": 0.9487179487179487,
+    "f1-score": 0.9610389610389611,
+    "support": 39,
+    "confused_with": {}
+  },
+  "day_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "depart_date.day_name": 2
+    }
+  },
+  "days_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "toloc.state_code": {
+    "precision": 0.9444444444444444,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9444444444444444,
+    "support": 18,
+    "confused_with": {
+      "state_code": 1
+    }
+  },
+  "toloc.airport_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "stoploc.airport_code": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "stoploc.city_name": 1
+    }
+  },
+  "fromloc.city_name": {
+    "precision": 0.9799054373522459,
+    "recall": 0.9388448471121178,
+    "f1-score": 0.9589358010410641,
+    "support": 883,
+    "confused_with": {}
+  },
+  "flight": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "or": {
+    "precision": 0.375,
+    "recall": 1.0,
+    "f1-score": 0.5454545454545454,
+    "support": 3,
+    "confused_with": {}
+  },
+  "depart_time.start_time": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "arrive_time.start_time": 1,
+      "fromloc.city_name": 1
+    }
+  },
+  "arrive_time.start_time": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {
+      "fromloc.city_name": 1
+    }
+  },
+  "meal": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 16,
+    "confused_with": {}
+  },
+  "fare_amount": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "depart_date.today_relative": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {}
+  },
+  "booking_class": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "fare_basis_code": 1
+    }
+  },
+  "compartment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "class_type": 1
+    }
+  },
+  "aircraft_code": {
+    "precision": 1.0,
+    "recall": 0.8064516129032258,
+    "f1-score": 0.8928571428571428,
+    "support": 31,
+    "confused_with": {
+      "flight_number": 1
+    }
+  },
+  "return_date.date_relative": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "depart_date.date_relative": 1
+    }
+  },
+  "cost_relative": {
+    "precision": 1.0,
+    "recall": 0.85,
+    "f1-score": 0.9189189189189189,
+    "support": 40,
+    "confused_with": {}
+  },
+  "arrive_date.month_name": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "depart_date.month_name": 3
+    }
+  },
+  "state_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "toloc.state_name": 5,
+      "airport_name": 2
+    }
+  },
+  "arrive_date.date_relative": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "depart_date.date_relative": 1
+    }
+  },
+  "connect": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "arrive_time.end_time": {
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.7999999999999999,
+    "support": 14,
+    "confused_with": {
+      "arrive_time.time": 2
+    }
+  },
+  "stoploc.city_name": {
+    "precision": 0.9714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.9855072463768115,
+    "support": 34,
+    "confused_with": {}
+  },
+  "economy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "transport_type": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {}
+  },
+  "depart_time.time": {
+    "precision": 0.8813559322033898,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9203539823008849,
+    "support": 108,
+    "confused_with": {
+      "arrive_time.time": 4
+    }
+  },
+  "arrive_time.time_relative": {
+    "precision": 0.9655172413793104,
+    "recall": 0.8,
+    "f1-score": 0.8750000000000001,
+    "support": 35,
+    "confused_with": {}
+  },
+  "flight_number": {
+    "precision": 0.9230769230769231,
+    "recall": 1.0,
+    "f1-score": 0.9600000000000001,
+    "support": 12,
+    "confused_with": {}
+  },
+  "mod": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {}
+  },
+  "toloc.airport_code": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "toloc.city_name": 2
+    }
+  },
+  "flight_days": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "depart_date.year": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "airline_name": {
+    "precision": 1.0,
+    "recall": 0.963855421686747,
+    "f1-score": 0.9815950920245399,
+    "support": 166,
+    "confused_with": {}
+  },
+  "flight_stop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "round_trip": {
+    "precision": 1.0,
+    "recall": 0.9714285714285714,
+    "f1-score": 0.9855072463768115,
+    "support": 140,
+    "confused_with": {}
+  },
+  "airport_name": {
+    "precision": 0.7083333333333334,
+    "recall": 0.34,
+    "f1-score": 0.45945945945945954,
+    "support": 50,
+    "confused_with": {
+      "fromloc.airport_name": 31,
+      "city_name": 2
+    }
+  },
+  "flight_time": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "fromloc.airport_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "depart_time.time_relative": {
+    "precision": 1.0,
+    "recall": 0.9384615384615385,
+    "f1-score": 0.9682539682539683,
+    "support": 65,
+    "confused_with": {
+      "arrive_time.time_relative": 1
+    }
+  },
+  "fromloc.state_code": {
+    "precision": 1.0,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9767441860465117,
+    "support": 22,
+    "confused_with": {
+      "toloc.state_code": 1
+    }
+  },
+  "depart_time.end_time": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 6,
+    "confused_with": {
+      "arrive_time.end_time": 4
+    }
+  },
+  "airline_code": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 24,
+    "confused_with": {
+      "airport_code": 1
+    }
+  },
+  "depart_time.period_mod": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "fare_basis_code": {
+    "precision": 0.7857142857142857,
+    "recall": 1.0,
+    "f1-score": 0.88,
+    "support": 11,
+    "confused_with": {}
+  },
+  "meal_description": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {}
+  },
+  "depart_date.day_name": {
+    "precision": 0.9617224880382775,
+    "recall": 0.9617224880382775,
+    "f1-score": 0.9617224880382775,
+    "support": 209,
+    "confused_with": {
+      "arrive_date.day_name": 1
+    }
+  },
+  "fromloc.state_name": {
+    "precision": 0.9411764705882353,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9411764705882353,
+    "support": 17,
+    "confused_with": {
+      "toloc.state_name": 1
+    }
+  },
+  "toloc.state_name": {
+    "precision": 0.8064516129032258,
+    "recall": 0.8620689655172413,
+    "f1-score": 0.8333333333333334,
+    "support": 29,
+    "confused_with": {
+      "toloc.city_name": 3,
+      "fromloc.state_name": 1
+    }
+  },
+  "period_of_day": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "depart_time.period_of_day": 2,
+      "depart_time.period_mod": 1
+    }
+  },
+  "state_code": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "toloc.city_name": {
+    "precision": 0.9744346116027532,
+    "recall": 0.9979859013091642,
+    "f1-score": 0.9860696517412936,
+    "support": 993,
+    "confused_with": {
+      "airport_name": 1,
+      "fromloc.city_name": 1
+    }
+  },
+  "meal_code": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "fare_basis_code": 1
+    }
+  },
+  "depart_date.date_relative": {
+    "precision": 0.8888888888888888,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9142857142857143,
+    "support": 17,
+    "confused_with": {}
+  },
+  "arrive_time.period_of_day": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "depart_time.period_of_day": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.9535936615732881,
+    "recall": 0.9260785930200605,
+    "f1-score": 0.9396347413913286,
+    "support": 3639
+  },
+  "macro avg": {
+    "precision": 0.7746604914691294,
+    "recall": 0.7140160734791088,
+    "f1-score": 0.7223805317192588,
+    "support": 3639
+  },
+  "weighted avg": {
+    "precision": 0.9503580910490278,
+    "recall": 0.9260785930200605,
+    "f1-score": 0.9335281856239924,
+    "support": 3639
+  }
+}
