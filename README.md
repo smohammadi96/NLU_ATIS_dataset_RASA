@@ -36,13 +36,23 @@ ATIS dataset has been used in the training and evaluation stage, which has 4978 
 
 ## How to run?
 
-python3 -m venv ./venv
+### install requirements
 
-python3 -m venv ./venv
+`python3 -m venv ./venv`
 
-pip3 install -U --user pip
+`source ./venv/bin/activate`
 
-pip3 install rasa
+`pip3 install -U --user pip`
+
+`pip3 install rasa`
+
+### training
+
+`rasa train nlu -u train.json -c config.yml`
+
+### Evaluation
+
+`rasa test nlu -u test.json --model models/nlu-20220215-184331.tar.gz`
 
 ## Results
 
