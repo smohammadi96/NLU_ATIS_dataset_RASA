@@ -1,7 +1,6 @@
 # NLU_ATIS_dataset_RASA
 
-[RASA](https://rasa.com/)
-
+[RASA](https://rasa.com/) | 
 [ATIS dataset](https://datasets.activeloop.ai/docs/ml/datasets/atis-dataset/)
 
 ## dataset sample
