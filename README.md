@@ -1,5 +1,6 @@
 # NLU_ATIS_dataset_RASA
 
+### Intent Classifier
 
 | Metric | Model 1 | Model 2 | Model 3 |
 | ------------- | ------------- | ------------- | ------------- |
@@ -8,6 +9,8 @@ Weighted average recall | 0.96 | 0.89 | 0.94 |
 Weighted average f1 score | 0.96 | 0.88 | 0.93 |
 
 Intent classifier for model one is DIET, which is a 256-bit binary transformer that It is superior to model two, which is a linear SVM, and model three, which uses the MITIE language model.
+
+### Entity Extractor
 
 | Metric | Model 1 | Model 2 | Model 3 |
 | ------------- | ------------- | ------------- | ------------- |
