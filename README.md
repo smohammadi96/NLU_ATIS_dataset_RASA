@@ -101,6 +101,6 @@ Weighted average .precision | 0.96 | 0.90 | 0.95 |
 Weighted average recall | 0.94 | 0.89 | 0.92 |
 Weighted average f1 score | 0.94 | 0.89 | 0.93 |
 
-**Comparison models output:** https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/outputs_intent.csv
+[**Comparison models output:**](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/outputs_intent.csv)
 
 In the first model, DIET is used as Entity extractor. As mentioned in the description, DIET can both classify intents and extract entities. In the second model, CRF is used as entity extractor, which has a lower efficiency than DIET. In the third model, MITIE Entity Extractor is used, which performs worse than DIET and better than CRF.
