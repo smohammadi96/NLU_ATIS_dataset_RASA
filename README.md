@@ -34,7 +34,7 @@ ATIS dataset has been used in the training and evaluation stage, which has 4978 
 
 ![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/config3.PNG))
 
-## How to run?
+## How to run
 
 Ubuntu 18.04
 
