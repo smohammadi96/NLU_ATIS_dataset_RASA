@@ -36,6 +36,8 @@ ATIS dataset has been used in the training and evaluation stage, which has 4978 
 
 ## How to run?
 
+Ubuntu 18.04
+
 ### install requirements
 
 `python3 -m venv ./venv`
@@ -50,7 +52,7 @@ ATIS dataset has been used in the training and evaluation stage, which has 4978 
 
 `rasa train nlu -u train.json -c config.yml`
 
-### Evaluation
+### evaluation
 
 `rasa test nlu -u test.json --model models/nlu-20220215-184331.tar.gz`
 
