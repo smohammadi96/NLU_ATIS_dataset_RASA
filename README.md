@@ -12,7 +12,11 @@ train Natural Language Understanding (NLU) on ATIS dataset:
 - Entity Recognition and Extraction
 
 
-## dataset sample
+## dataset
+
+ATIS dataset has been used in the training and evaluation stage, which has 4978 sentences in the training dataset and 850 sentences for the evaluation stage.
+
+### sample
 
 ![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/ATIS_sample.PNG)
 
