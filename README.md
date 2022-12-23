@@ -3,6 +3,14 @@
 [RASA](https://rasa.com/) | 
 [ATIS dataset](https://datasets.activeloop.ai/docs/ml/datasets/atis-dataset/)
 
+train Natural Language Understanding (NLU) on ATIS dataset:
+**Steps:**
+- Tockenizer
+- Featurizer
+- Intent Classification
+- Entity Recognition and Extraction
+
+
 ## dataset sample
 
 ![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/ATIS_sample.PNG)
