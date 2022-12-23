@@ -89,7 +89,7 @@ Weighted average precision | 0.96 | 0.88 | 0.94 |
 Weighted average recall | 0.96 | 0.89 | 0.94 |
 Weighted average f1 score | 0.96 | 0.88 | 0.93 |
 
-**Comparison Intent Classifiers outputs:** https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/outputs_entity.csv
+[**Comparison Intent Classifiers outputs:**](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/outputs_entity.csv)
 
 Intent classifier for model one is DIET, which is a 256-bit binary transformer that It is superior to model two, which is a linear SVM, and model three, which uses the MITIE language model.
 
