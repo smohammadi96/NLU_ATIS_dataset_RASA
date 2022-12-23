@@ -3,7 +3,7 @@
 [RASA](https://rasa.com/) | 
 [ATIS dataset](https://datasets.activeloop.ai/docs/ml/datasets/atis-dataset/)
 
-train Natural Language Understanding (NLU) on ATIS dataset:
+Train Natural Language Understanding (NLU) on ATIS dataset:
 
 **Steps:**
 - Tockenizer
@@ -12,11 +12,11 @@ train Natural Language Understanding (NLU) on ATIS dataset:
 - Entity Recognition and Extraction
 
 
-## dataset
+## Dataset
 
-ATIS dataset has been used in the training and evaluation stage, which has 4978 sentences in the training dataset and 850 sentences for the evaluation stage.
+ATIS dataset has been used in the training and evaluation stage, which has 4978 sentences for the training dataset and 850 sentences for the evaluation stage.
 
-### sample
+### Sample
 
 ![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/ATIS_sample.PNG)
 
