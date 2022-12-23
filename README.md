@@ -14,7 +14,7 @@ Train Natural Language Understanding (NLU) on ATIS dataset:
 
 ## Dataset
 
-ATIS dataset has been used in the training and evaluation stage, which has 4978 sentences for the training dataset and 850 sentences for the evaluation stage.
+ATIS dataset has been used in the training and evaluation stage, which has 4978 sentences for the training dataset and 850 sentences for the evaluation stage. the figure shows the sample of dataset.
 
 ### Sample
 
