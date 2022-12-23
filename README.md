@@ -1,12 +1,23 @@
 # NLU_ATIS_dataset_RASA
 
 
+## dataset sample
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/ATIS_sample.PNG)
 
-![alt text](http://url/to/img.png)
+## Configs
 
-![alt text](http://url/to/img.png)
+### config 1
+
+![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/config1.PNG))
+
+### config 2
+
+![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/config2.PNG))
+
+### config 3
+
+![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/config3.PNG))
 
 
 <!-- Intent class | support | percision | recall | F1-score | Confused with |
