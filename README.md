@@ -34,6 +34,15 @@ ATIS dataset has been used in the training and evaluation stage, which has 4978 
 
 ![alt text](https://github.com/smohammadi96/NLU_ATIS_dataset_RASA/blob/main/images/config3.PNG))
 
+## How to run?
+
+python3 -m venv ./venv
+
+python3 -m venv ./venv
+
+pip3 install -U --user pip
+
+pip3 install rasa
 
 ## Results
 
